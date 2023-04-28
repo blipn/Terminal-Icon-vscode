@@ -6,7 +6,7 @@ Terminal Icon for VSCode
 
 Display a tiny terminal icon at the right bottom, in the VScode Status Bar.
 
-\!\[feature\]\(images/screen.jpg\)
+![feature](images/screen.jpg)
 
 ## Known Issues
 
