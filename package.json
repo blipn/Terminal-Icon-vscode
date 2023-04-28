@@ -1,0 +1,48 @@
+{
+  "name": "terminal-icon",
+  "displayName": "Terminal Icon",
+  "description": "Only display a tiny terminal icon at the right bottom of VScode",
+  "version": "1.0.0",
+  "publisher": "blipn",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "Terminal"
+  ],
+  "homepage": "https://github.com/blipn/Terminal-Icon-vscode/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blipn/Terminal-Icon-vscode.git"
+  },  
+  "bugs": {
+    "url": "https://github.com/blipn/Terminal-Icon-vscode/issues"
+  },
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.77.0",
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.0.4",
+    "@vscode/test-electron": "^2.3.0"
+  }
+}
