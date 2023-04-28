@@ -14,10 +14,6 @@ Display a tiny terminal icon at the right bottom, in the VScode Status Bar.
 
 ## Release Notes
 
-### 1.0.1
-
-Readme update -_-
-
 ### 1.0.0
 
 Initial release of terminal-icon

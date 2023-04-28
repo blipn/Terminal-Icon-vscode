@@ -1,9 +1,14 @@
 # Change Log
 
-All notable changes to the "terminal-icon" extension will be documented in this file.
+### [1.0.2]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Remove useless imports
 
-## [Unreleased]
+### [1.0.1]
+
+- Fix readme image
+
+### [1.0.0]
 
 - Initial release
+

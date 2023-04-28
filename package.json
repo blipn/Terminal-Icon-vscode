@@ -2,7 +2,7 @@
   "name": "terminal-icon",
   "displayName": "Terminal Icon",
   "description": "Only display a tiny terminal icon at the right bottom of VScode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "blipn",
   "icon": "images/logo.png",
   "engines": {

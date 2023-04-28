@@ -1,6 +1,4 @@
 import * as vscode from 'vscode';
-import * as os from 'os';
-import * as path from 'path';
 
 export function activate(context: vscode.ExtensionContext) {
 	console.log('Congratulations, your extension "terminal-icon" is now active!');
