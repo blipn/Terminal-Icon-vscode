@@ -10,9 +10,13 @@ Display a tiny terminal icon at the right bottom, in the VScode Status Bar.
 
 ## Known Issues
 
-*none
+*none*
 
 ## Release Notes
+
+### 1.0.1
+
+Readme update -_-
 
 ### 1.0.0
 
