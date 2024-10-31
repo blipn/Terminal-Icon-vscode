@@ -1,6 +1,6 @@
 # terminal-icon README
 
-Terminal Icon for VSCode
+Terminal shortcut icon for VSCode
 
 ## Features
 
